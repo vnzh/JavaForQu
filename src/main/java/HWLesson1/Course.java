@@ -10,22 +10,23 @@ public class Course {
     private Team team;
     private BarrierGroup barrierGroup;
 
-    ArrayList<String> resList = new ArrayList<>();
+    ArrayList<String> resalt = new ArrayList<>();
+
+
 
     public Course(Team team, BarrierGroup barrierGroup) {
         this.team = team;
         this.barrierGroup = barrierGroup;
-        this.team.setCourse(this);
     }
 
     public void doIt() {
         for (TeamMember t : team.getTeamMembers()) {
             for (Barrier b : barrierGroup.getBarriers()) {
 //                System.out.println(action(t, b));
-                resList.add(action(t,b));
-
+                resalt.add(action(t,b));
             }
         }
+        team.setResList(resalt);
     }
 
     String action(TeamMember member, Barrier barrier) {
@@ -49,11 +50,4 @@ public class Course {
         return String.format("%s, %s", ((CanJamp) member).jamp(((JampAble) barrier).getHeigh()),
                 ((CanDestroy) member).destroy(((Destroyable) barrier).getResistance()));
     }
-
-    void showResults() {
-        for (String s: resList) {
-            System.out.println(s);
-        }
-    }
-
 }
