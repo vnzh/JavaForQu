@@ -19,7 +19,6 @@ public class Main {
                 new Barrier[]{new Wall(3f, 25f), new Wall(30f, 20f), new Wall(20f,40f)});
         Course course = new Course(team, group);
         course.doIt();
-//        course.showResults();
         team.showResults();
     }
 }
