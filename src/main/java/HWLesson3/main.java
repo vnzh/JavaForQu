@@ -62,7 +62,7 @@ public class main {
         } catch (UncorrectFruictBox e) {
             throw new RuntimeException(e);
         }
-        System.out.println(boxAppleTwo);
+        System.out.println(boxApple);
 
 
     }

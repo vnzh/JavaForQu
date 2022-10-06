@@ -4,18 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9152e5f4-7204-4801-8f0d-54b46e20c0b3" name="Changes" comment="teper resultaty xranyatsya v samoy comande">
-      <change afterPath="$PROJECT_DIR$/src/main/java/HWLesson3/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HWLesson3/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HWLesson3/BoxVarTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HWLesson3/ExchangePosition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HWLesson3/Fruit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HWLesson3/Orange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HWLesson3/UncorrectFruictBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HWLesson3/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ExchangePositionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="9152e5f4-7204-4801-8f0d-54b46e20c0b3" name="Changes" comment="lesson3">
+      <change beforePath="$PROJECT_DIR$/src/main/java/HWLesson3/BoxVarTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HWLesson3/BoxVarTwo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664920868409</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="lesson3">
+      <created>1665096443355</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665096443355</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -150,7 +147,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="les2" />
+                        <option value="les3" />
                       </list>
                     </value>
                   </entry>
@@ -164,6 +161,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="teper resultaty xranyatsya v samoy comande" />
-    <option name="LAST_COMMIT_MESSAGE" value="teper resultaty xranyatsya v samoy comande" />
+    <MESSAGE value="lesson3" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson3" />
   </component>
 </project>

@@ -34,7 +34,7 @@ public class BoxVarTwo<T extends Fruit> {
         return false;
     }
 
-    //Box<?> box -   the   box from  pourOut$   this - the  box  to///
+    //B  this - the  box  from///
     public void pourOut(BoxVarTwo<? super T> box) throws UncorrectFruictBox {
         if (!box.fructsList.isEmpty() &&
                 !this.fructsList.isEmpty() &&
@@ -44,7 +44,7 @@ public class BoxVarTwo<T extends Fruit> {
         }
         box.fructsList.addAll(this.fructsList);
 
-        box.fructsList.clear();
+        this.fructsList.clear();
 
     }
 
