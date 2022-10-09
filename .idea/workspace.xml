@@ -5,19 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9152e5f4-7204-4801-8f0d-54b46e20c0b3" name="Changes" comment="les2 branch">
-      <change beforePath="$PROJECT_DIR$/src/main/java/HWLesson1/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HWLesson1/Course.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HWLesson1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HWLesson1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HWLesson1/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HWLesson1/Team.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HWLesson3/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HWLesson3/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HWLesson3/BoxVarTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HWLesson3/ExchangePosition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HWLesson3/Fruit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HWLesson3/Orange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HWLesson3/UncorrectFruictBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HWLesson3/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BoxMethodsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ExchangePositionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="les2" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="les2" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -30,19 +49,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/Programming/Testing/GeekBrains/Program/Testing/Java Core для тестировщиков/JavaForQu/JavaForQu/src/test/java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
-}</component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HWLesson1.Main" />
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Programming\Testing\GeekBrains\Program\Testing\Java Core для тестировщиков\JavaForQu\JavaForQu\src\test\java" />
+      <recent name="D:\Programming\Testing\GeekBrains\Program\Testing\Java Core для тестировщиков\JavaForQu\JavaForQu\src" />
+      <recent name="D:\Programming\Testing\GeekBrains\Program\Testing\Java Core для тестировщиков\JavaForQu\JavaForQu\src\main\java\HWLesson3" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.BoxMethodsTest.pourOutNormalTest">
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HWLesson3.main" />
       <module name="JavaForQu" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HWLesson1.*" />
+          <option name="PATTERN" value="HWLesson3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -50,9 +81,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BoxMethodsTest.pourOutExeptionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaForQu" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BoxMethodsTest" />
+      <option name="METHOD_NAME" value="pourOutExeptionTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BoxMethodsTest.pourOutNormalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaForQu" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BoxMethodsTest" />
+      <option name="METHOD_NAME" value="pourOutNormalTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExchangePositionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaForQu" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ExchangePositionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExchangePositionTest.exPosOutArrayEx" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaForQu" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ExchangePositionTest" />
+      <option name="METHOD_NAME" value="exPosOutArrayEx" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.BoxMethodsTest.pourOutNormalTest" />
+        <item itemvalue="JUnit.ExchangePositionTest.exPosOutArrayEx" />
+        <item itemvalue="JUnit.BoxMethodsTest.pourOutExeptionTest" />
+        <item itemvalue="JUnit.ExchangePositionTest" />
+        <item itemvalue="Application.main" />
       </list>
     </recent_temporary>
   </component>
