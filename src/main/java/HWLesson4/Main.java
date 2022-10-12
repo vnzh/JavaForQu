@@ -7,7 +7,7 @@ public class Main {
         String[] strings = {"my", "name", "David", "in", "small", "village", "near",
                 "Chicago", "my", "cousin", "married", "my", "father", "and", "her",
                 "father", "are", "twins", "we", "are", "very", "busy", "my",
-                "uncle", "friend", "is" };
+                "uncle", "friend", "is"};
         System.out.println(new Lesson4PointOne().uniqueString(strings));
         System.out.println(new Lesson4PointOne().uniqueCounter(strings));
 
@@ -19,13 +19,13 @@ public class Main {
         try {
             System.out.println(phoneBook.get("Black"));
         } catch (UserNotFoundExeption e) {
-            throw new RuntimeException(e);
+            e.printStackTrace();
         }
 
         try {
             System.out.println(phoneBook.get("Apple"));
         } catch (UserNotFoundExeption e) {
-            throw new RuntimeException(e);
+            e.printStackTrace();
         }
     }
 }
