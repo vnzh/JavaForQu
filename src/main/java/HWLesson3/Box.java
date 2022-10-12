@@ -29,14 +29,15 @@ public class Box<T extends Fruit> {
 
 
     public void add(T t) throws UncorrectFruictBox {
-        if (!(t.getClass().getName().equals(this.fruit.getClass().getName()))) {
-            throw new UncorrectFruictBox("Sorts are different");
-        }
+
         if (this.fruit == null) {
             this.fruit = t;
             this.amount += 1;
         } else {
             this.amount += 1;
+        }
+        if (!(t.getClass().getName().equals(this.fruit.getClass().getName()))) {
+            throw new UncorrectFruictBox("Sorts are different");
         }
     }
 
@@ -54,8 +55,8 @@ public class Box<T extends Fruit> {
     //from this - to  box
     public void pourOut(Box<?> box) throws UncorrectFruictBox {
         if (box.fruit.getClass().getName() != null &&
-                this.fruit.getClass().getName()  != null &&
-               !(box.fruit.getClass().getName().equals(this.fruit.getClass().getName()))) {
+                this.fruit.getClass().getName() != null &&
+                !(box.fruit.getClass().getName().equals(this.fruit.getClass().getName()))) {
             throw new UncorrectFruictBox("Sorts are different");
         }
         box.setAmount(this.getAmount() + box.getAmount());
