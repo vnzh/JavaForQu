@@ -1,0 +1,39 @@
+Index: src/main/java/HWLesson3/Box.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package HWLesson3;\r\n\r\npublic class Box<T extends Fruit> {\r\n\r\n    private T fruit;\r\n\r\n    public T getFruit() {\r\n        return fruit;\r\n    }\r\n\r\n    public void setFruit(T fruit) {\r\n        this.fruit = fruit;\r\n    }\r\n\r\n    private int amount;\r\n\r\n    public int getAmount() {\r\n        return amount;\r\n    }\r\n\r\n    public void setAmount(int amount) {\r\n        this.amount = amount;\r\n    }\r\n\r\n    public Box(T fruit, int amount) {\r\n        this.fruit = fruit;\r\n        this.amount = amount;\r\n    }\r\n\r\n\r\n    public void add(T t) throws UncorrectFruictBox {\r\n        if (!(t.getClass().getName().equals(this.fruit.getClass().getName()))) {\r\n            throw new UncorrectFruictBox(\"Sorts are different\");\r\n        }\r\n        if (this.fruit == null) {\r\n            this.fruit = t;\r\n            this.amount += 1;\r\n        } else {\r\n            this.amount += 1;\r\n        }\r\n    }\r\n\r\n    public float getWeight() {\r\n        float weight = this.fruit.getWeight() * this.amount;\r\n\r\n        return weight;\r\n    }\r\n\r\n    public boolean compare(Box<?> box) {\r\n        if (this.getWeight() - box.getWeight() < 0.001) return true;\r\n        return false;\r\n    }\r\n\r\n    //from this - to  box\r\n    public void pourOut(Box<?> box) throws UncorrectFruictBox {\r\n        if (box.fruit.getClass().getName() != null &&\r\n                this.fruit.getClass().getName()  != null &&\r\n               !(box.fruit.getClass().getName().equals(this.fruit.getClass().getName()))) {\r\n            throw new UncorrectFruictBox(\"Sorts are different\");\r\n        }\r\n        box.setAmount(this.getAmount() + box.getAmount());\r\n        this.setAmount(0);\r\n        this.fruit = null;\r\n    }\r\n\r\n    @Override\r\n    public String toString() {\r\n        return \"Box{\" +\r\n                \"fruit=\" + fruit +\r\n                \", amount=\" + amount +\r\n                '}';\r\n    }\r\n}\r\n
+===================================================================
+diff --git a/src/main/java/HWLesson3/Box.java b/src/main/java/HWLesson3/Box.java
+--- a/src/main/java/HWLesson3/Box.java	
++++ b/src/main/java/HWLesson3/Box.java	
+@@ -29,15 +29,16 @@
+ 
+ 
+     public void add(T t) throws UncorrectFruictBox {
+-        if (!(t.getClass().getName().equals(this.fruit.getClass().getName()))) {
+-            throw new UncorrectFruictBox("Sorts are different");
+-        }
++
+         if (this.fruit == null) {
+             this.fruit = t;
+             this.amount += 1;
+         } else {
+             this.amount += 1;
+         }
++        if (!(t.getClass().getName().equals(this.fruit.getClass().getName()))) {
++            throw new UncorrectFruictBox("Sorts are different");
++        }
+     }
+ 
+     public float getWeight() {
+@@ -54,8 +55,8 @@
+     //from this - to  box
+     public void pourOut(Box<?> box) throws UncorrectFruictBox {
+         if (box.fruit.getClass().getName() != null &&
+-                this.fruit.getClass().getName()  != null &&
+-               !(box.fruit.getClass().getName().equals(this.fruit.getClass().getName()))) {
++                this.fruit.getClass().getName() != null &&
++                !(box.fruit.getClass().getName().equals(this.fruit.getClass().getName()))) {
+             throw new UncorrectFruictBox("Sorts are different");
+         }
+         box.setAmount(this.getAmount() + box.getAmount());
