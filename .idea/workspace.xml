@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9152e5f4-7204-4801-8f0d-54b46e20c0b3" name="Changes" comment="Lesson 4 try - catch in Main update (e.printStackTrace();)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/HWLesson5/AppData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HWLesson5/Main.java" afterDir="false" />
+    <list default="true" id="9152e5f4-7204-4801-8f0d-54b46e20c0b3" name="Changes" comment="Lesson 5">
+      <change afterPath="$PROJECT_DIR$/src/main/java/HWLesson6/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07_10_2022_2_16_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07_10_2022_2_16__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07_10_2022_2_17_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07_10_2022_2_17__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +26,7 @@
     </option>
   </component>
   <component name="Git.Merge.Settings">
-    <option name="BRANCH" value="les_4" />
+    <option name="BRANCH" value="les5" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -31,6 +35,9 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2FZkRNun58cz6zotPY87Y1LVh4g" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -44,7 +51,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Programming/Testing/GeekBrains/Program/Testing/Java Core для тестировщиков/JavaForQu/JavaForQu/src/test/java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Programming/Testing/GeekBrains/Program/Testing/Java Core для тестировщиков/JavaForQu/JavaForQu/src/main/java/HWLesson6&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -53,18 +60,19 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Programming\Testing\GeekBrains\Program\Testing\Java Core для тестировщиков\JavaForQu\JavaForQu\src\main\java\HWLesson6" />
       <recent name="D:\Programming\Testing\GeekBrains\Program\Testing\Java Core для тестировщиков\JavaForQu\JavaForQu\src\test\java" />
       <recent name="D:\Programming\Testing\GeekBrains\Program\Testing\Java Core для тестировщиков\JavaForQu\JavaForQu\src" />
       <recent name="D:\Programming\Testing\GeekBrains\Program\Testing\Java Core для тестировщиков\JavaForQu\JavaForQu\src\main\java\HWLesson3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HWLesson5.Main">
-    <configuration name="HWLesson5.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HWLesson5.Main" />
+  <component name="RunManager" selected="Application.HWLesson6.Main">
+    <configuration name="HWLesson6.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HWLesson6.Main" />
       <module name="JavaForQu" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HWLesson5.*" />
+          <option name="PATTERN" value="HWLesson6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +93,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BoxMethodsTest.pourOutNormalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RestfulBookerExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HWLesson6.RestfulBookerExamples" />
       <module name="JavaForQu" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BoxMethodsTest" />
-      <option name="METHOD_NAME" value="pourOutNormalTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HWLesson6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -116,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HWLesson5.Main" />
+        <item itemvalue="Application.HWLesson6.Main" />
+        <item itemvalue="Application.RestfulBookerExamples" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.ExchangePositionTest.exPosOutArrayEx" />
         <item itemvalue="JUnit.ExchangePositionTest" />
-        <item itemvalue="JUnit.BoxMethodsTest.pourOutNormalTest" />
       </list>
     </recent_temporary>
   </component>
@@ -140,21 +151,7 @@
       <option name="project" value="LOCAL" />
       <updated>1665605193500</updated>
     </task>
-    <task id="LOCAL-00002" summary="Lesson 4 try - catch in Main update (e.printStackTrace();)">
-      <created>1665605649990</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1665605649990</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Lesson 4 try - catch in Main update (e.printStackTrace();)">
-      <created>1665605668639</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1665605668639</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -162,19 +159,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="les5" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -182,7 +167,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Lesson 3 update Box.void add(T t)  method" />
-    <MESSAGE value="Lesson 4 try - catch in Main update (e.printStackTrace();)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson 4 try - catch in Main update (e.printStackTrace();)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson 3 update Box.void add(T t)  method" />
   </component>
 </project>
